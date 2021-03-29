@@ -1,3 +1,14 @@
+
+# Isaac Walter - documentation 
+
+## With 4 years since the last commit to the repository and 6 years passing since the latest release I have been able to port this Python2 module to work with Python3 and also work with Windows since support was never fully supported and render times on my Macbook were unsatisfactory. 
+
+Use of the module is virtually the same except the capability of using multiple threads is no longer available but a suitable workaround could still be possible. I will try to keep this as up to date as possible and potentially restore it to be fully working on all platforms.
+
+--------
+
+# Original documentation
+
 # [Python Black Hole Raytracer](http://spiro.fisica.unipd.it/~antonell/starless/)
 
 Starless is a CPU black hole raytracer in numpy suitable for both informative diagrams and decent wallpaper material.
@@ -102,3 +113,5 @@ Many options have default values and can be omitted, but I make no guarantees on
 Some general rules:
 
 * Precision and render time are obviously massively affected by the `Iterations` and `Stepsize` options. As a rule of thumb, in `[lofi]` fix `Stepsize` to a large value, such as `0.08`, then render multiple times with `-d` progressively decreasing `Iterations`. You need to find the smallest value of `Iterations` for which no significant parts of the image are clipped. When you've fixed the `Iterations` number, decrease the step size to a desirable value (`0.02` is basically high-quality, `0.04` or `0.08` is enough for most purposes) *and simultaneously increase* `Iterations` *by the same factor* (e.g.: halve step size, double iterations) so as to keep clipping distance **approximately fixed**. When satisfied, copy these values to the `[hifi]` section. This procedure minimizes render time.
+
+--------
