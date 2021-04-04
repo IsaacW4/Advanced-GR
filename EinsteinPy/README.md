@@ -15,62 +15,12 @@ This repository includes Jupyter notebooks of the code that I have used to produ
 
 -----------------------------------------------
 
-.. einsteinpy
 
-.. image:: https://blog.einsteinpy.org/img/logo.png
-   :target: https://einsteinpy.org/
-   :alt: EinsteinPy logo
-   :width: 675px
-   :align: center
-
-.. |astropy| image:: http://img.shields.io/badge/powered%20by-AstroPy-orange.svg?style=flat-square
-   :target: http://www.astropy.org/
-
-.. |mailing| image:: https://img.shields.io/badge/mailing%20list-groups.io-8cbcd1.svg?style=flat-square
-   :target: https://groups.io/g/einsteinpy-dev
-
-.. |doi| image:: https://zenodo.org/badge/168302584.svg?style=flat-square
-   :target: https://zenodo.org/badge/latestdoi/168302584
-
-.. |gitter| image:: https://img.shields.io/gitter/room/EinsteinPy-Project/EinsteinPy.svg?logo=gitter&style=flat-square
-   :alt: Join the chat at https://gitter.im/EinsteinPy-Project/EinsteinPy
-   :target: https://gitter.im/EinsteinPy-Project/EinsteinPy?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-
-.. |riotchat| image:: https://img.shields.io/matrix/einsteinpy:matrix.org.svg?logo=riot&style=flat-square
-   :target: https://riot.im/app/#/room/#einsteinpy:matrix.org
-
-.. |license| image:: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
-   :target: https://github.com/einsteinpy/einsteinpy/raw/main/COPYING
-
-.. |docs| image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat-square
-   :target: https://docs.einsteinpy.org/en/latest/?badge=latest
-
-.. |codeclimate| image:: https://img.shields.io/codeclimate/maintainability/einsteinpy/einsteinpy.svg?logo=code-climate&style=flat-square
-   :target: https://codeclimate.com/github/einsteinpy/einsteinpy/maintainability
-   :alt: Maintainability
-
-.. |circleci| image:: https://img.shields.io/circleci/project/github/einsteinpy/einsteinpy/main.svg?style=flat-square&logo=circleci
-   :target: https://circleci.com/gh/einsteinpy/einsteinpy
-
-.. |ghactions| image:: https://img.shields.io/github/workflow/status/einsteinpy/einsteinpy/Test_MacOS?logo=github&style=flat-square
-   :target: https://github.com/einsteinpy/einsteinpy/actions?query=branch%3Amain
-
-.. |codecov| image:: https://img.shields.io/codecov/c/github/einsteinpy/einsteinpy.svg?style=flat-square
-   :target: https://codecov.io/github/einsteinpy/einsteinpy?branch=main
-
-.. |appveyor| image:: https://img.shields.io/appveyor/ci/shreyasbapat/einsteinpy/main?logo=appveyor&style=flat-square
-   :target: https://ci.appveyor.com/project/shreyasbapat/einsteinpy/branch/main
-
-.. |orcid-shreyas| image:: https://img.shields.io/badge/id-0000--0002--0870--4665-a6ce39.svg
-   :target: https://orcid.org/0000-0002-0870-4665
 
 :Name: EinsteinPy
 :Website: https://einsteinpy.org/
 :Version: 0.4.dev0
 
-|astropy| |mailing| |gitter| |riotchat| |license| |docs|
-
-|circleci| |ghactions| |appveyor| |codecov| |codeclimate|
 
 **EinsteinPy** is an open source pure Python package dedicated to problems arising
 in General Relativity and gravitational physics, such as geodesics plotting for
